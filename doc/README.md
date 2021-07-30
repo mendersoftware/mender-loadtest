@@ -1,15 +1,12 @@
 # Load testing documentation
 
-This repository collects setup notes, test procedures, test logs and test
-reports for Mender Load Testing.
-
-The defined tests can be found at `tests/` subfolder, while the log and report
-for the performed tests can be found at `test-<date>` directories.
+This directory contains setup notes and test procedures for Mender Load
+Testing.
 
 ## Test definitions
 
-The tests are being added to `tests/` as we develop them. Try to add tests
-following the pattern:
+The tests are being added to `tests/` as we develop them. When adding tests,
+follow the pattern:
 * `1xx_short_id` for passive tests
 * `2xx_short_id` for manual GUI tests
 * `3xx_short_id` for active tests
@@ -17,18 +14,6 @@ following the pattern:
 If a test requires an update such that will fundamentally change the procedure
 or the metrics to collect, just create a new one and mark the previous one as
 "deprecated", so that old reports still refer to exiting definitions.
-
-## Test reports and test log
-
-Every time we perform tests, we shall create a new `test-<date>` directory. The
-format and style of the test report and log is up to the tester, the most
-important parts are:
-* To have a human readable test report with at least:
-  - Executive summary of the main results
-  - Important issues discovered during testing
-* Test results, preferably on a spreadsheet to easily create graphs
-* To have some sort of test log that serves as a basic traceability of the job
-  done
 
 ## Fist time setup
 

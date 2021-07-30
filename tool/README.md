@@ -1,7 +1,9 @@
-# Scale testing scripts
+# Load testing scripts
 
-The goal of these scripts is to run a scale test (also known as stress or
-load test) against a working Mender installation.
+This directory contains Python scripts to run the Mender Load Testing.
+
+The goal of these scripts is to run a load test (also known as stress or scale
+test) against a working Mender installation.
 
 ## Init the Python virtual environment
 
